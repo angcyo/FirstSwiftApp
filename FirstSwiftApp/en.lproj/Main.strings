@@ -1,0 +1,36 @@
+
+/* Class = "UIBarButtonItem"; title = "分享"; ObjectID = "2Qz-3Z-lpK"; */
+"2Qz-3Z-lpK.title" = "分享";
+
+/* Class = "UILabel"; text = "Navigation 2"; ObjectID = "6oK-xs-4rb"; */
+"6oK-xs-4rb.text" = "Navigation 2";
+
+/* Class = "UILabel"; text = "Navigation 1"; ObjectID = "8Zj-Wi-3iu"; */
+"8Zj-Wi-3iu.text" = "Navigation 1";
+
+/* Class = "UINavigationItem"; title = "Title2"; ObjectID = "FiA-w2-nj7"; */
+"FiA-w2-nj7.title" = "Title2";
+
+/* Class = "UILabel"; text = "Sencond Tab "; ObjectID = "PBS-qo-5jS"; */
+"PBS-qo-5jS.text" = "Sencond Tab ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Rdk-E2-fVn"; */
+"Rdk-E2-fVn.normalTitle" = "Button";
+
+/* Class = "UIBarButtonItem"; title = "BackButton2"; ObjectID = "Vr1-wK-hOh"; */
+"Vr1-wK-hOh.title" = "BackButton2";
+
+/* Class = "UITabBarItem"; badgeValue = "99999"; ObjectID = "Xqa-iV-d4H"; */
+"Xqa-iV-d4H.badgeValue" = "99999";
+
+/* Class = "UILabel"; text = "Sencond Tab2"; ObjectID = "ZFN-9G-AAz"; */
+"ZFN-9G-AAz.text" = "Sencond Tab2";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "bTI-P0-a1b"; */
+"bTI-P0-a1b.title" = "Title";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "oZm-q1-0Xh"; */
+"oZm-q1-0Xh.normalTitle" = "Button";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "xUE-W0-ZeH"; */
+"xUE-W0-ZeH.title" = "Item";
