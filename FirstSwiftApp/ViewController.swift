@@ -14,8 +14,18 @@ class ViewController: UIViewController, TestBackDelegate {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view, typically from a nib.
 		navigationItem.leftBarButtonItem = editButtonItem()
-
 		buttonAddTest()
+
+//		if let views = tabBarController?.tabBar.subviews {
+//			views[views.count - 1].removeFromSuperview()
+//			views[0].removeFromSuperview()
+//		}
+//
+//		navigationController?.navigationBar.subviews[0].removeFromSuperview()
+	}
+
+	override func viewWillAppear(animated: Bool) {
+		navigationController?.setNavigationBarHidden(false, animated: true)
 	}
 
 	func buttonAddTest() {
@@ -88,8 +98,8 @@ class ViewController: UIViewController, TestBackDelegate {
 		print("onClose")
 		print(segue.description)
 
-//		let nav2 = segue.sourceViewController as! ViewController2
-		let nav2 = segue.sourceViewController as! TestViewController
+		let nav2 = segue.sourceViewController as! ViewController2
+//		let nav2 = segue.sourceViewController as! TestViewController
 		print(nav2.backParam)
 	}
 	@IBAction func onItem(sender: AnyObject) {
@@ -135,6 +145,10 @@ class ViewController: UIViewController, TestBackDelegate {
 
 	func onNavBack(backParam: String) {
 		print("收到返回参数:\(backParam)")
+	}
+
+	@IBAction func onPushTest() {
+		navigationController?.pushViewController(storyboard!.instantiateViewControllerWithIdentifier("pushViewController"), animated: true)
 	}
 }
 
