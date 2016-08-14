@@ -14,6 +14,9 @@
 		256197AF1D4FA6850001C57B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 256197AE1D4FA6850001C57B /* Assets.xcassets */; };
 		256197B21D4FA6850001C57B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 256197B01D4FA6850001C57B /* LaunchScreen.storyboard */; };
 		25BED5621D5E2CF500D06F83 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BED5611D5E2CF500D06F83 /* TestViewController.swift */; };
+		25BED5641D5F57DE00D06F83 /* MySegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BED5631D5F57DE00D06F83 /* MySegue.swift */; };
+		25BED5661D5F73C900D06F83 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BED5651D5F73C900D06F83 /* ActivityViewController.swift */; };
+		25BED5681D6088AB00D06F83 /* PushTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BED5671D6088AB00D06F83 /* PushTestViewController.swift */; };
 		25F32FB91D50466A00C46A8A /* Navigation2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F32FB81D50466A00C46A8A /* Navigation2ViewController.swift */; };
 		58799F86C5111CA10BC08041 /* Pods_FirstSwiftApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E924BF6CE94F6648302A054 /* Pods_FirstSwiftApp.framework */; };
 /* End PBXBuildFile section */
@@ -30,6 +33,9 @@
 		256197B31D4FA6850001C57B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2577840F1D509340000A8837 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		25BED5611D5E2CF500D06F83 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		25BED5631D5F57DE00D06F83 /* MySegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySegue.swift; sourceTree = "<group>"; };
+		25BED5651D5F73C900D06F83 /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		25BED5671D6088AB00D06F83 /* PushTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushTestViewController.swift; sourceTree = "<group>"; };
 		25F32FB81D50466A00C46A8A /* Navigation2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigation2ViewController.swift; sourceTree = "<group>"; };
 		89166731589B6C2A019FF663 /* Pods-FirstSwiftApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstSwiftApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirstSwiftApp/Pods-FirstSwiftApp.release.xcconfig"; sourceTree = "<group>"; };
 		8B9BDA8FE10E45A698440C1D /* Pods-FirstSwiftApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstSwiftApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirstSwiftApp/Pods-FirstSwiftApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -75,9 +81,12 @@
 				256197B01D4FA6850001C57B /* LaunchScreen.storyboard */,
 				256197B31D4FA6850001C57B /* Info.plist */,
 				256197AB1D4FA6850001C57B /* Main.storyboard */,
+				25BED5671D6088AB00D06F83 /* PushTestViewController.swift */,
+				25BED5651D5F73C900D06F83 /* ActivityViewController.swift */,
 				25BED5611D5E2CF500D06F83 /* TestViewController.swift */,
 				25F32FB81D50466A00C46A8A /* Navigation2ViewController.swift */,
 				251441401D5700B600F95DC8 /* SnapshotViewController.swift */,
+				25BED5631D5F57DE00D06F83 /* MySegue.swift */,
 			);
 			path = FirstSwiftApp;
 			sourceTree = "<group>";
@@ -226,7 +235,10 @@
 				256197AA1D4FA6850001C57B /* ViewController.swift in Sources */,
 				25F32FB91D50466A00C46A8A /* Navigation2ViewController.swift in Sources */,
 				251441411D5700B600F95DC8 /* SnapshotViewController.swift in Sources */,
+				25BED5661D5F73C900D06F83 /* ActivityViewController.swift in Sources */,
 				256197A81D4FA6850001C57B /* AppDelegate.swift in Sources */,
+				25BED5681D6088AB00D06F83 /* PushTestViewController.swift in Sources */,
+				25BED5641D5F57DE00D06F83 /* MySegue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

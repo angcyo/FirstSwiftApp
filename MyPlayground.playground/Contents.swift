@@ -145,6 +145,16 @@ arc4random_uniform(6)
 
 arc4random_stir()
 
+protocol TestP {
+	func onTest()
+}
 
+class TestClass: TestP {
 
+}
 
+extension TestP {
+	func onTest() {
+		print("onTest")
+	}
+}

@@ -18,9 +18,15 @@ class SnapshotViewController: UIViewController {
 	var brightness = 1.0
 
 	override func viewDidAppear(animated: Bool) {
-		self.view.backgroundColor = UIColor.blueColor()
+		self.view.backgroundColor = UIColor.whiteColor()
 
 		print("nibname:\(nibName) nibbounds:\(nibBundle)")
+
+//		tabBarController?.selectedIndex = 1
+	}
+
+	override func viewDidLoad() {
+//		tabBarController?.selectedViewController = tabBarController?.viewControllers![2]
 	}
 
 	@IBAction func onButton(sender: AnyObject) {
@@ -54,5 +60,10 @@ class SnapshotViewController: UIViewController {
 		print("button2 frame:\(testButton.frame)")
 		print("button2 bounds:\(testButton.bounds)")
 
+	}
+
+	@IBAction func onSelectorTabBarItem() {
+//        tabBarController?.selectedIndex = 1
+		tabBarController?.selectedViewController = tabBarController?.viewControllers![2]
 	}
 }
